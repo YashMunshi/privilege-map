@@ -1,0 +1,15 @@
+{
+  "name": "privilege-map",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Trace nested membership and assumed identities to the resource they can reach.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "analyze": "node run.mjs"
+  }
+}
